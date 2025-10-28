@@ -48,7 +48,7 @@ const AppHero = () => {
             <div className="hidden sm:block absolute -top-4 -left-4 w-72 h-72 bg-cyan-200 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob" />
             <div className="hidden sm:block absolute -bottom-8 -right-4 w-72 h-72 bg-cyan-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000" />
             <img
-              src="/hero.png"
+              src="hero.png"
               alt="Ticket Management System Interface"
               className="w-full h-full object-contain relative z-10 transform transition-transform duration-500 hover:scale-105"
             />

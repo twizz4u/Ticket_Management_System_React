@@ -10,10 +10,23 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<AppHome />} />
-        <Route path="/dashboard" element={<ProtectedRoute><AppDashboard /></ProtectedRoute>} />
-        <Route path="/signin" element={<AppSigninForm />} />
-        <Route path="/signup" element={<AppSignUpForm />} />
+        <Route path="/Ticket_Management_System_React" element={<AppHome />} />
+        <Route
+          path="/Ticket_Management_System_React/dashboard"
+          element={
+            <ProtectedRoute>
+              <AppDashboard />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/Ticket_Management_System_React/signin"
+          element={<AppSigninForm />}
+        />
+        <Route
+          path="/Ticket_Management_System_React/signup"
+          element={<AppSignUpForm />}
+        />
       </Routes>
     </Router>
   );

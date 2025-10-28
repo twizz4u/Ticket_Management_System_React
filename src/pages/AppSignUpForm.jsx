@@ -80,7 +80,7 @@ const AppSignUpForm = () => {
           <div className="flex flex-col lg:flex-row gap-12 items-center max-w-6xl mx-auto">
             <figure className="w-full lg:w-1/2 rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="/signup.jpg"
+                src="signup.jpg"
                 alt="Sign up illustration"
                 className="w-full h-full object-cover"
               />

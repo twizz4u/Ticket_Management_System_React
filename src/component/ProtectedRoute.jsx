@@ -6,7 +6,7 @@ const ProtectedRoute = ({ children }) => {
 
   if (!user) {
     // If no user is found in local storage, redirect to the sign-in page
-    return <Navigate to="/signin" />;
+    return <Navigate to="/Ticket_Management_System_React/signin" />;
   }
 
   return children;
