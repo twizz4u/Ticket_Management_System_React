@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import AppNavbar from "../component/AppNavbar";
 import AppFooter from "../component/AppFooter";
@@ -314,12 +315,12 @@ const AppSignUpForm = () => {
 
               <p className="mt-6 text-sm text-gray-600 text-center">
                 Already have an account?{" "}
-                <a
-                  href="/login"
+                <Link
+                  to="/signin"
                   className="text-cyan-600 hover:text-cyan-700 font-medium"
                 >
                   Log in
-                </a>
+                </Link>
               </p>
             </form>
           </div>
