@@ -11,10 +11,7 @@ const AppNavbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link
-              to="/Ticket_Management_System_React"
-              className="text-xl font-bold text-cyan-600"
-            >
+            <Link to="/" className="text-xl font-bold text-cyan-600">
               Ticket management
             </Link>
           </div>
@@ -23,7 +20,7 @@ const AppNavbar = () => {
           <div className="hidden md:flex items-center space-x-8">
             <div className="flex items-center space-x-4">
               <Link
-                to="dashboard"
+                to="/dashboard"
                 className="px-8 py-3 bg-cyan-600 text-white rounded-lg font-semibold transform transition-all duration-300 hover:scale-105 hover:bg-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:ring-opacity-50"
               >
                 Dashboard
